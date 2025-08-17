@@ -297,7 +297,7 @@ if (isset($_SESSION['lecture_id']) && isset($_SESSION['role']) && isset($_GET['m
                             });
 
                             async function fetchYouTubeVideos(query) {
-                                const API_KEY = 'AIzaSyCU8vFhAWV40CabpaJtHXcQkp5-uDrsG0g'; //  API key
+                                const API_KEY = ''; //  API key
                                 const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=5&q=${encodeURIComponent(query)}&type=video&key=${API_KEY}`;
 
                                 try {
@@ -381,4 +381,5 @@ if (isset($_SESSION['lecture_id']) && isset($_SESSION['role']) && isset($_GET['m
 } else {
     header("Location: ../login.php");
 }
+
 ?>
