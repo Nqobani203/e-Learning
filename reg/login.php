@@ -82,13 +82,13 @@ if (isset($_POST['uname']) && isset($_POST['pass']) && isset($_POST['role'])) {
                     $mail->isSMTP();
                     $mail->Host = 'smtp.gmail.com';
                     $mail->SMTPAuth = true;
-                    $mail->Username = 'nqobanit23@gmail.com';   // Your Gmail address
-                    $mail->Password = 'ofyn ybtn oqtf rcgt';   // Gmail App Password (not your actual password)
+                    $mail->Username = '';   // Your Gmail address
+                    $mail->Password = '';   // Gmail App Password (not your actual password)
                     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                     $mail->Port = 587;
 
                     // Recipients
-                    $mail->setFrom('nqobanit23@gmail.com', 'ProLearn Notifications');
+                    $mail->setFrom('your email address', 'ProLearn Notifications');
                     $mail->addAddress($email);  // Send to the student's email address
 
                     // Email content
@@ -489,3 +489,4 @@ if (
 }
 ?>
 */
+
