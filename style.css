@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.body-home, .body-login{
+    background: url(../images/univ.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.black-fill{
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 100vh;
+}
+#homeNav{
+    background: rgba(255, 255, 255, 0.5) !important;
+
+}
+.welcome-text{
+    min-height: 90vh;
+}
+.welcome-text img{
+    width:290px;
+}
+.welcome-text h4{
+    color: #eee;
+    font-size: 51px;
+    font-family: 'Lobster', cursive;
+}
+.welcome-text p{
+    color: #222;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+    
+
+}
+#about{
+    min-height: 100vh;
+}
+#about .card-1{
+    max-width: 600vh;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+#about .card-1 h5{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+#contact{
+    min-height: 100vh;
+}
+#contact form{
+    max-width: 600vh;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+#contact form h3{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 20px;
+
+}
+.login{
+    max-width: 100vh;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+}
+.login h3{
+    text-align: center;
+    font-size: 50px;
+}
+.w-450{
+    width: 450px;
+}
+
+
+/* Features Section */
+#features {
+    padding: 50px 0;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+
+}
+
+#features h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+#features .card-deck {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    max-width: 300px;
+    margin: 15px;
+    background: rgba(255, 255, 255, 0.5);
+
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-title {
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #444;
+}
+#features .card-body{
+    background: rgba(160, 194, 125, 0.5);
+
+}
+
+/* Additional Responsive Design */
+@media (max-width: 768px) {
+    .card-deck {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+.n-table{
+    max-width: 800px;
+}
+.form-w{
+    max-width: 600px;
+    width: 100%;
+}
